@@ -1,0 +1,23 @@
+{
+  "name": "google-site-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy to support Custom Domains for New Google Sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raja Jamwal, DataGrid Softwares LLP",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "lodash": "^4.17.4",
+    "memory-cache": "^0.1.6",
+    "mysql": "^2.13.0"
+  }
+}
